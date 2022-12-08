@@ -13,7 +13,7 @@
 
 
     // query menambakn data
-    $sql= "DELETE FROM `produk` ('id', `kode_produk`, `nama_produk`, `harga`) 
+    $sql= "DELETE FROM `produk` (`id`, `kode_produk`, `nama_produk`, `harga`) 
     WHERE 'id'= ".$id."';";
     //echo $sql;
 
